@@ -1,0 +1,1258 @@
+{
+  "restaurantName": {
+    "PL": "Soprano",
+    "GB": "Soprano"
+  },
+  "restaurantDescription": {
+    "PL": "Witaj!",
+    "GB": "Welcome!"
+  },
+  "supportedLanguages": ["PL", "GB"],
+  "customImage": false,
+  "imagePath": "assets/images/photo2.jpg",
+  "fontFamily": "CormorantGaramond",
+  "fontColor": "#FFFFFF",
+  "fontSize": 50.0,
+  "secondaryFontSize": 25.0,
+  "mainColor": "#1c1c15",
+  "categoryLayout": {
+    "numberInRow": 2,
+    "numberInCol": 2
+  },
+  "categories": [
+    {
+      "id": "b4b8a3f3-3545-43d4-baa9-d4f247fcbaec",
+      "name": {
+        "PL": "Pizza",
+        "GB": "Pizza"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/pizza/pizza4.jpg",
+      "dishes": [
+        {
+          "id": "e1cc4072-1d60-4753-9c87-c052e1080e3c",
+          "name": {
+            "PL": "KATRINA",
+            "GB": "KATRINA"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/pizza/pizza1.jpg",
+          "price": 47.00,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidor",
+                "GB": "tomatoe"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "oliwki",
+                "GB": "olives"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "grana padano",
+                "GB": "grana padano"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cc6159cf-0555-4672-a200-98bb553305e9",
+          "name": {
+            "PL": "PRIMA VERA KREWETKOWA",
+            "GB": "SHRIMP PRIMA VERA"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/pizza/pizza2.jpg",
+          "price": 45.00,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "biały sos",
+                "GB": "white sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "wędzony łosoś",
+                "GB": "smoked salmon"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "13933dc3-f0dd-42cb-ac89-1865e1831ee7",
+          "name": {
+            "PL": "SALMONE",
+            "GB": "SALMONE"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/pizza/pizza3.jpg",
+          "price": 45.00,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "biały sos",
+                "GB": "white sauce"
+              },
+              "imagePath": "assets/images/ingredients/chicken.png"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "wędzony łosoś",
+                "GB": "smoked salmon"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ricotta",
+                "GB": "ricotta"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "992c92e1-7585-4d95-87bf-5eb0259bd5e4",
+          "name": {
+            "PL": "CHORIZO",
+            "GB": "CHORIZO"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/pizza/pizza4.jpg",
+          "price": 40.00,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "sos pomidorowy",
+                "GB": "tomatoes sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "chorizo",
+                "GB": "chorizo"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "cebula",
+                "GB": "onion"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "papryka",
+                "GB": "pepper"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ogórek świezy",
+                "GB": "fresh cucamber"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ea59e1bb-9e68-4afe-a00d-e9956f93f937",
+          "name": {
+            "PL": "DI PAOLO",
+            "GB": "DI PAOLO"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/pizza/pizza1.jpg",
+          "price": 35.00,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "sos pomidorowy",
+                "GB": "toamtoes sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "salami pikantne",
+                "GB": "spicy salami"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "gorgonzola",
+                "GB": "gorgonzola"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "karczochy",
+                "GB": "artichokes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "jalapeno",
+                "GB": "jalapeno"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "oliwki",
+                "GB": "olives"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "607b93af-08cd-4566-ab53-79b68443185f",
+      "name": {
+        "PL": "Przystawki",
+        "GB": "Starters"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo3.jpg",
+      "dishes": [
+        {
+          "id": "3c05c038-b405-4120-bbd5-582a19acbb4d",
+          "name": {
+            "PL": "PALUSZKI GRISSINI",
+            "GB": "GRISSINI BREADSTICKS"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/przystawki/paluszki-grissini.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": []
+        },
+        {
+          "id": "8866a393-5b53-4184-a770-3bdadb5af076",
+          "name": {
+            "PL": "BRUSHETTA 2 SZT.",
+            "GB": "BRUSHETTA 2 SLICES"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/przystawki/bruschetta.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "pomidory concasse",
+                "GB": "concasse tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "bazylia",
+                "GB": "basil"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "czosnek",
+                "GB": "garlic"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "59872967-722b-4c46-92b7-4d8499cc4be4",
+          "name": {
+            "PL": "CARPACCIO WŁOSKIE",
+            "GB": "ITALIAN CARPACCIO"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/przystawki/carpaccio-wolowe.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "polędwica wołowa",
+                "GB": "sirloin"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "rukola",
+                "GB": "arugula"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "grana padano",
+                "GB": "grana padano"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "majonez truflowy",
+                "GB": "truffle mayonnaise"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "5312eef8-afec-49cd-8561-7a27dd575986",
+          "name": {
+            "PL": "TATAR WŁOSKI",
+            "GB": "ITALIAN TATAR"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/przystawki/tatar.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "polędwica wołowa",
+                "GB": "sirloin"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "cebula",
+                "GB": "onion"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ogórek",
+                "GB": "cucamber"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "podgrzybki",
+                "GB": "boletes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "majonez wassabi",
+                "GB": "wasabi mayonnaise"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "jajko",
+                "GB": "egg"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "e5461162-4a4f-41e3-9318-bbb1d6031d8c",
+          "name": {
+            "PL": "KREWETKI TYGRYSIE 3 SZT.",
+            "GB": "TIGER SHRAMPS 3 PIECES"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/przystawki/krewetki-tygrysie.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "kalarepa",
+                "GB": "kohlrabi"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "zielone jabłko",
+                "GB": "green apple"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "majonez",
+                "GB": "mayonnaise"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4d0bdf6e-91eb-40b6-b001-8abd70b2aa3b",
+      "name": {
+        "PL": "Sałatki",
+        "GB": "Salads"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo5.jpg",
+      "dishes": [
+        {
+          "id": "3310a6b9-bbc3-482f-90d0-e99a875ed221",
+          "name": {
+            "PL": "KALMARY PANIEROWANE",
+            "GB": "BREADED SQUIDS"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/salatki/kalmary.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "oliwki",
+                "GB": "olives"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "sos słodki-chili",
+                "GB": "sweet chilli sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "panierka panko",
+                "GB": "panko breading"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "grana padano",
+                "GB": "grana padano"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "222d3ad7-373f-4b0c-9912-7558a193b974",
+          "name": {
+            "PL": "SAŁATKA Z SZYNKĄ SAN DANIELE DOP",
+            "GB": "SALAD WITH SAN DANIELE DOP HAM"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/salatki/san-danielle.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "jajko",
+                "GB": "egg"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "szparagi",
+                "GB": "asparagus"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "sos dijon",
+                "GB": "dijon sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "887bbdac-f42e-4dff-85a8-b4a4e4a09589",
+          "name": {
+            "PL": "SAŁATKA Z BURAKIEM",
+            "GB": "SALAD WITH BEETROOT"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/salatki/salatka-z-burakiem.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ser feta",
+                "GB": "feta cheese"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pestki słonecznika",
+                "GB": "sunflower seeds"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "dynia",
+                "GB": "pumpkin"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ddea6a08-051a-47d6-b949-d272f381bada",
+          "name": {
+            "PL": "SAŁATKA Z WĘDZONYM ŁOSOSIEM",
+            "GB": "SALAD WITH SMOKED SALMON"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/salatki/salmon-salad.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "mix sałat",
+                "GB": "salats mix"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomarańcza",
+                "GB": "orange"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "oliwki",
+                "GB": "olives"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "5753e24c-adb6-4057-9752-fd3f7ed23c93",
+          "name": {
+            "PL": "SAŁATKA Z KURCZAKIEM CURRY",
+            "GB": "SALAD WITH CURRY CHICKGB"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/salatki/chicken.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "sałatka rzymska",
+                "GB": "romaine salad"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "rzodkiewka",
+                "GB": "radish"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "cebula czerwona",
+                "GB": "red onion"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f5627480-3bca-4227-972f-89a9dbc1fdec",
+      "name": {
+        "PL": "Zupy",
+        "GB": "Soups"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo6.jpg",
+      "dishes": [
+        {
+          "id": "fb5e8d67-1895-49f5-9c62-9641c9bd9606",
+          "name": {
+            "PL": "TOSKAŃSKA",
+            "GB": "TUSCAN"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/zupy/toskanska.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "pomidory",
+                "GB": "tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "mozzarella",
+                "GB": "mozzarella"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "focaccia",
+                "GB": "focaccia"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "5f305712-55d7-4cf6-a069-fa794339d382",
+          "name": {
+            "PL": "RYBNA CURRY",
+            "GB": "FISH CURRY"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/zupy/rybna.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "dorsz",
+                "GB": "cod"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "krewetki",
+                "GB": "shrimp"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "curp",
+                "GB": "curp"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "78161a82-6143-463b-9923-e392b7fb9bdb",
+          "name": {
+            "PL": "KREM Z CUKINI",
+            "GB": "ZUCCHINI CREAM"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/zupy/cukinia.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "cukinia",
+                "GB": "zucchini"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "śmietana",
+                "GB": "cream"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "grzanki",
+                "GB": "croutons"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "0e674242-30d5-4fbf-a953-41b008560066",
+          "name": {
+            "PL": "CHŁODNIK Z BOTWINKI",
+            "GB": "BEETROOT COOLER"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/zupy/chlodnik.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "botwinka",
+                "GB": "beetroot"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "jajko",
+                "GB": "egg"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "kefir",
+                "GB": "kefir"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5ce0fd6-b0b9-468a-8422-ae745d3e073c",
+      "name": {
+        "PL": "Dania główne",
+        "GB": "Main dishes"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo7.jpg",
+      "dishes": [
+        {
+          "id": "3f49fe2c-e3a6-4edd-9fa0-19fd48aa755a",
+          "name": {
+            "PL": "ŻEBRO WOŁOWE WOLNO GOTOWANE 300G",
+            "GB": "BEEF RIB SLOW COOKED 300G"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dania_glowne/zebra-wolowe.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "kukurydza",
+                "GB": "corn"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ziemniaki rozmarynowe",
+                "GB": "rosemary potatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "sos z zielonym pieprzem",
+                "GB": "green pepper sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "b8800f21-fcdc-404e-bba5-93cecf14b5c4",
+          "name": {
+            "PL": "STEK WOŁOWY T-BONE 450G",
+            "GB": "BEEF STEAK T-BONE 450G"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dania_glowne/stek-wolowy.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "ziemniaki rozmarynowe",
+                "GB": "rosemary potatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "pomidorki koktajlowe",
+                "GB": "cherry tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "szparagi",
+                "GB": "asparagus"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "brokuł bimi",
+                "GB": "bimi broccoli"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "96f3647b-1fcf-4f87-8a26-9e3e6425b02c",
+          "name": {
+            "PL": "STEK WIEPRZOWY Z KOŚCIĄ 300G",
+            "GB": "PORK STEAK ON THE BONE 300G"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dania_glowne/stek-wieprzowy.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "ziemniaki opiekane",
+                "GB": "baked potatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "warzywa sezonowe",
+                "GB": "seasonal vegetables"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "demi glance",
+                "GB": "demi glance"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "db512f05-6ade-4617-ba22-901e077a0152",
+          "name": {
+            "PL": "POLĘDWICZKI WIEPRZOWE 300G",
+            "GB": "PORK LOINS 300G"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dania_glowne/poledwiczki.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "kapusta zasmazana",
+                "GB": "fried cabbage"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "ziemniaki opiekane",
+                "GB": "baked potatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "sos kurkowy",
+                "GB": "chanterelle sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "0b3911d7-87b6-49a7-aab6-f39b48f84a69",
+          "name": {
+            "PL": "PLACKI ZIEMNIACZANE",
+            "GB": "POTATO PANCAKES"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dania_glowne/placki.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "pestki dyni",
+                "GB": "pumpkin seeds"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "nasiona słonecznika",
+                "GB": "sunflower seeds"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "sos kurkowy",
+                "GB": "chanterelle sauce"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62163b49-8bdb-44ff-bd98-42b1b7604988",
+      "name": {
+        "PL": "Ryby",
+        "GB": "Fishes"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo8.jpg",
+      "dishes": [
+        {
+          "id": "173fbe4b-d6da-4df4-8efe-2384d80a6a88",
+          "name": {
+            "PL": "FILET Z HALIBUTA",
+            "GB": "HALIBUT FILLET"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/ryby/halibut.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "puree pietruszkowe",
+                "GB": "parsley puree"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "szpinak",
+                "GB": "spinach"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "suszone pomidory",
+                "GB": "dried tomatoes"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "szparagi",
+                "GB": "asparagus"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cd5b43fc-3c1a-40c8-a90c-a4658499f46c",
+          "name": {
+            "PL": "FILET Z SANDACZA 250G",
+            "GB": "ZANDER FILLET 250G"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/ryby/sandacz.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "cieciorka",
+                "GB": "chickpeas"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "cukinia",
+                "GB": "zucchini"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "papryka",
+                "GB": "pepper"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "kolendra",
+                "GB": "coriander"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "limonka",
+                "GB": "lime"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed994f11-d3ff-4092-b16b-7fa036891991",
+      "name": {
+        "PL": "Dania dla dzieci",
+        "GB": "Meals for kids"
+      },
+      "customImage": false,
+      "imagePath": "assets/images/photo7.jpg",
+      "dishes": [
+        {
+          "id": "c8d70cd9-b34d-4c13-89ff-e1d5d062f66f",
+          "name": {
+            "PL": "ROSÓŁ Z MAKARONEM",
+            "GB": "CHICKGB NOODLE SOUP"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dzieci/rosol.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": []
+        },
+        {
+          "id": "18194bbe-0261-41f9-bb34-5b007005df91",
+          "name": {
+            "PL": "POLĘDWICZKI DROBIOWE W PANKO",
+            "GB": "POULTRY LOINS IN PANKO"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dzieci/poledwiczki.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "z frytkami",
+                "GB": "with french fries"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "0d786767-6039-4e9c-82a2-0f319274a4df",
+          "name": {
+            "PL": "ZŁOCISTE NALEŚNIKI Z SEREM",
+            "GB": "GOLDGB PANCAKES WITH CHEESE"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dzieci/nalesniki.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": [
+            {
+              "name": {
+                "PL": "bita śmietana",
+                "GB": "whipped cream"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "owoce",
+                "GB": "fruits"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            },
+            {
+              "name": {
+                "PL": "wanilia",
+                "GB": "vanilla"
+              },
+              "imagePath": "assets/images/photo8.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ca254e00-92e1-4b30-a0d3-a98f0a4f5899",
+          "name": {
+            "PL": "FRYTKI",
+            "GB": "FRENCH FRIES"
+          },
+          "customImage": false,
+          "imagePath": "assets/images/dzieci/frytki.jpg",
+          "price": 20.34,
+          "currency": "PLN",
+          "ingredients": []
+        }
+      ]
+    }
+  ]
+}

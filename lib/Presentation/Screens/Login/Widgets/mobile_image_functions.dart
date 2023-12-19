@@ -1,0 +1,120 @@
+import 'dart:io';
+
+import 'package:aws_cognito_app/Presentation/Declarations/Constants/constant_enums.dart';
+import 'package:aws_cognito_app/app_manager.dart';
+import 'package:aws_cognito_app/Presentation/Models/config_model.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/services.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:permission_handler/permission_handler.dart';
+
+import 'image_functions_interface.dart';
+
+class MobileImageWidgetFunctions extends ImageFunctionInterface {
+  final ImagePicker imagePicker = ImagePicker();
+  MobileImageWidgetFunctions();
+
+  Future<ImageSource?> showImageSource(BuildContext context,
+      ImagePage imagePage, Category? category, Dish? dish) async {
+    if (Platform.isIOS) {
+      return showCupertinoModalPopup<ImageSource>(
+        context: context,
+        builder: (context) => CupertinoActionSheet(
+          actions: [
+            CupertinoActionSheetAction(
+                child: const Text('Camera'),
+                onPressed: () {
+                  Navigator.of(context).pop(ImageSource.camera);
+                }),
+            CupertinoActionSheetAction(
+                child: const Text('Gallery'),
+                onPressed: () {
+                  Navigator.of(context).pop(ImageSource.gallery);
+                }),
+          ],
+        ),
+      );
+    } else {
+      return showModalBottomSheet(
+        context: context,
+        builder: (context) => Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+                leading: const Icon(Icons.camera_alt),
+                title: const Text('Camera'),
+                onTap: () {
+                  Navigator.of(context).pop(ImageSource.camera);
+                }),
+            ListTile(
+                leading: const Icon(Icons.image),
+                title: const Text('Gallery'),
+                onTap: () {
+                  Navigator.of(context).pop(ImageSource.gallery);
+                }),
+          ],
+        ),
+      );
+    }
+  }
+
+  // Function to capture a photo with the camera
+  String getFileName(ImagePage imagePage, Category? category, Dish? dish) {
+    switch (imagePage) {
+      case ImagePage.category:
+        return "category_${category!.id}";
+      case ImagePage.dish:
+        return "dish_${dish!.id}";
+      case ImagePage.main:
+        return "main";
+    }
+  }
+
+  @override
+  uploadImage(BuildContext context, Function pageCallback, ImagePage imagePage,
+      Category? category, Dish? dish, ImageCache imageCache) async {
+    final source = await showImageSource(context, imagePage, category, dish);
+    if (source == null) return;
+
+    pickImage(source, pageCallback, imagePage, category, dish, imageCache);
+  }
+
+  pickImage(ImageSource source, Function pageCallback, ImagePage imagePage,
+      Category? category, Dish? dish, ImageCache imageCache) async {
+    try {
+      final status = await Permission.storage.request();
+      if (status.isGranted) {
+        final image = await ImagePicker().pickImage(source: source);
+        if (image == null) return;
+
+        switch (imagePage) {
+          case ImagePage.main:
+            File file = await AppManager.configService
+                .editMainImage(await image.readAsBytes());
+            imageCache.evict(FileImage(file));
+            pageCallback();
+            break;
+          case ImagePage.category:
+            File file = await AppManager.configService
+                .editContentImage(category!.id, await image.readAsBytes());
+            imageCache.evict(FileImage(file));
+            pageCallback();
+            break;
+          case ImagePage.dish:
+            File file = await AppManager.configService.editDishImage(
+                category!.id, dish!.id, await image.readAsBytes());
+            imageCache.evict(FileImage(file));
+            pageCallback();
+            break;
+        }
+      } else {
+        print("Permission to storage not grranted");
+        return;
+      }
+    } on PlatformException {
+      print("No access to camera");
+      Error();
+    }
+  }
+}
